@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../warning/warning.component.scss"
+    ],
+    "names": [],
+    "file": "warning.component.css"
+}

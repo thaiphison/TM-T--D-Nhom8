@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div>
+  <ngx-spinner class="bg" bdColor="rgba(0, 0, 0, 1)">
+    <iframe frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <p>
+      <!-- <a
+        href="https://giphy.com/embed/3o7bu3XilJ5BOiSGic"
+        width="350"
+        height="350"
+      ></a> -->
+    </p>
+  </ngx-spinner>
+  <div *ngIf="loading" class="col-sm-12"></div>
+  <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>
